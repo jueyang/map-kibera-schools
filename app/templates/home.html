@@ -44,9 +44,7 @@
           {% endfor %}
         </ul>
       </div>
-      <div class="accent">
-        <h2>Kibera School Map</h2>
-      </div>
+      <h2>Kibera School Map</h2>
       <ul class="controls">
         <li class="data">
           <a class="activate" href="/data/">Download Data</a>
@@ -67,17 +65,7 @@
 
   <section id="stories">
     <h2>Stories</h2>
-    <ul>
-      {% for story in content.stories[:4] %}
-        <li>
-          <div class="smokeglass">
-            <h3>{{ story.title }} / Gallery</h3>
-            <p>{{ story.description }}</p>
-            <a href="stories/{{ story.slug }}" class="button">See More</a>
-          </div>
-        </li>
-      {% endfor %}
-    </ul>
+    <p>Section for highlighting</p>
   </section>
 
 {% endblock %}
